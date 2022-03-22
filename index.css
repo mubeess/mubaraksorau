@@ -344,8 +344,17 @@ flex-direction: row;
 
 }
 
+.subsection .bio a{
+   color: blue;
+   cursor: pointer;
+
+}
+
+
+
 .subsection .bio button{
     position: absolute;
+    cursor: pointer;
     top: 45%;
     left:20%;
     width: 200px;

@@ -11,10 +11,10 @@ imgNav.addEventListener('click',function (e) {
 let j=0
 function counting(element) {
         if (j<10) {
-         numbers.textContent=j+1; 
-         numbers1.textContent=j+29; 
-         numbers2.textContent=j+50; 
-         numbers3.textContent=j+11;
+         numbers.textContent=j+11; 
+         numbers1.textContent=j-8; 
+         numbers2.textContent=j-4; 
+         numbers3.textContent=j-8;
          j++
                   
         }
