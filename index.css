@@ -199,6 +199,15 @@
     margin: 0px;
     padding: 0px;
 }
+/* @media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2)
+  {
+    .subsection .bio button{
+        top: 20%;
+    }
+} */
 .fun{
     position: absolute;
     width: 50px;
@@ -355,7 +364,7 @@ flex-direction: row;
 .subsection .bio button{
     position: absolute;
     cursor: pointer;
-    top: 45%;
+    margin-top: 50px;
     left:20%;
     width: 200px;
     height: 50px;
@@ -367,6 +376,7 @@ flex-direction: row;
   
 
 }
+
 .subsection .pic{
     position: relative;
 }
