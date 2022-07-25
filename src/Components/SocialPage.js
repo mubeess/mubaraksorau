@@ -12,7 +12,7 @@ min-height:50vh;
 display:flex;
 flex-direction:row;
 width:100%;
-background-color:#f9f9f9;
+background-color:#ffffff;
 margin-top:20px;
 padding:20px;
 .socialGroup{

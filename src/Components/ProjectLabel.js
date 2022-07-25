@@ -13,6 +13,7 @@ display:flex;
 flex-direction:row;
 align-items:center;
 margin-bottom:20px;
+padding:5px;
 
 img{
     width:45px;
@@ -38,6 +39,7 @@ img{
         .de{
          color:rgba(0,0,0,0.5);
          font-size:14px;
+         font-weight:600;
         }
     }
     .arr{
