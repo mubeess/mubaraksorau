@@ -3,6 +3,7 @@ import "../App.css";
 import styled from "styled-components";
 import Logo from "../Components/Logo";
 import OR from "../Assets/or.png";
+import QU from "../Assets/QU.png";
 import {
   Css,
   FileOpen,
@@ -75,13 +76,23 @@ barak-ibrahim-6685a4157/"
       </div>
       <div className="light"></div>
       <div className="projects">
-        <MyProjects
-        img={OR}
-          github="https://github.com/mubeess/operations_research_association"
-          live="https://operations-research-association.vercel.app/"
-          title="Nigerian Association of OR portal"
-          des="The portal functionalities are: user registration and payment, certificate generaion and admin dashboard. I used React, Redux, Typescript, Formik and more.."
-        />
+        <Fade cascade triggerOnce>
+          <MyProjects
+            img={OR}
+            github="https://github.com/mubeess/operations_research_association"
+            live="https://operations-research-association.vercel.app/"
+            title="Nigerian Association of OR portal"
+            des="The portal functionalities are: user registration and payment, certificate generaion and admin dashboard. I used React, Redux, Typescript, Formik and more.."
+          />
+
+         <MyProjects
+            img={QU}
+            github="https://github.com/mubeess/Fintech_React_Native"
+            live="https://github.com/mubeess/Fintech_React_Native"
+            title="ios and android app for a fintech start-up"
+            des="It's an developed using react native, redux and typescript. i did all the forgot password and sign-in flow."
+          />
+        </Fade>
       </div>
       <div className={`bottom_link ${isToggled ? "active" : null}`}>
         <div
